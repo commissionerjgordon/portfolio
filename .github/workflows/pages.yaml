@@ -40,6 +40,8 @@ jobs:
         run: npm ci
       - name: Deploy to Pages
         run: npm run deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Add summary content
         run: |
           echo "## Build Results 🚀" >> $GITHUB_STEP_SUMMARY
