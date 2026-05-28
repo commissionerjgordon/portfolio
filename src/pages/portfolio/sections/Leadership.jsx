@@ -2,7 +2,7 @@ export default function Leadership() {
   return (
     <section
       id="leadership"
-      className="py-24 bg-slate-950 sm:scroll-mt-30 lg:scroll-mt-40"
+      className="py-24 bg-slate-950 scroll-mt-30 lg:scroll-mt-40"
     >
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">

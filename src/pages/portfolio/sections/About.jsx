@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-24 bg-slate-900 sm:scroll-mt-30 lg:scroll-mt-40"
+      className="py-24 bg-slate-900 scroll-mt-30 lg:scroll-mt-40"
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-10">About Me</h2>

@@ -4,7 +4,7 @@ export default function Hero(props) {
   return (
     <section
       id="hero"
-      className="hero-bg min-h-screen flex items-center sm:pt-54 sm:pb-24 lg:pt-64 lg:pb-24"
+      className="hero-bg min-h-screen flex items-center pt-54 pb-24 lg:pt-64 lg:pb-24"
     >
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
