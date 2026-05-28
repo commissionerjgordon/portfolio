@@ -42,7 +42,7 @@ export default function Hero(props) {
         <div className="flex justify-center">
           <div className="w-80 h-80 rounded-3xl bg-gradient-to-br from-emerald-500 via-cyan-500 to-blue-500 p-1.5 shadow-2xl">
             <img
-              src="/profile.jpeg"
+              src="/portfolio/profile.jpeg"
               alt={props.name}
               className="w-full h-full object-cover rounded-3xl"
             />
