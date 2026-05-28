@@ -4,7 +4,7 @@ export default function Contact(props) {
   return (
     <section
       id="contact"
-      className="py-24 bg-slate-900 sm:scroll-mt-30 lg:scroll-mt-40"
+      className="py-24 bg-slate-900 scroll-mt-30 lg:scroll-mt-40"
     >
       <div className="max-w-xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6">Let's Connect</h2>
