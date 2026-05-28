@@ -31,14 +31,15 @@ defaults:
 jobs:
   # Build job
   build:
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Install Node.js dependencies
         run: npm ci
-      # - name: Deploy to Pages
-      #   run: npm run deploy
+      - name: Deploy to Pages
+        run: npm run deploy
       - name: Add summary content
         run: |
           echo "## Build Results 🚀" >> $GITHUB_STEP_SUMMARY
