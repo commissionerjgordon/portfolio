@@ -92,14 +92,14 @@ export default function Navbar(props) {
 
             <div className="pt-6 border-t border-slate-700 flex flex-col gap-4">
               <a
-                href="https://github.com/yourusername"
+                href={props.github}
                 target="_blank"
                 className="flex items-center gap-3 text-slate-300 hover:text-white"
               >
                 <FaGithub size={24} /> GitHub
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href={props.linkedin}
                 target="_blank"
                 className="flex items-center gap-3 text-slate-300 hover:text-white"
               >
