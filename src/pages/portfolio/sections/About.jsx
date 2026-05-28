@@ -66,12 +66,6 @@ export default function About() {
             </span>
             <span className="text-slate-400">Background</span>
           </div>
-          {/* <div>
-            <span className="block text-emerald-400 text-3xl font-semibold">
-              AI Projects
-            </span>
-            <span className="text-slate-400">2024 - Present</span>
-          </div> */}
         </div>
       </div>
     </section>
