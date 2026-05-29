@@ -96,9 +96,9 @@ export default function Projects() {
               <p className="text-slate-400 mb-4 text-left">
                 Tired of searching around all the different sites to find
                 quality Lakers merchandise? LakersVault aggregates across
-                multiple websites to the work for you! Just scroll away to view
-                all the items already found or try searching for something more
-                specific. It's Lakers merchandise the whole way!
+                multiple websites to do the work for you! Just scroll away to
+                view all the items already found or try searching for something
+                more specific. It's Lakers merchandise the whole way!
               </p>
               <div className="flex flex-wrap pt-2 gap-2 mb-6">
                 <span className="text-xs bg-slate-700 px-3 py-1 rounded-full">
